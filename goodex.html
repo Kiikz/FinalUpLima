@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Improving an UI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <link href="css/style.css" rel="stylesheet">
+
+
+
+  <!-- <script>
+    function moveNumbers(number){
+        document.getElementById("result").value=number;
+    }
+</script> -->
+
+</head>
+<body>
+
+<!-- NavBar -->
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Austin Reach</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id=".navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="badex.html">Bad Example</a></li>
+        <li><a href="goodex.html">Improved Example</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- Middle NavBar -->
+
+    <div class="col-sm-8 text-center"> 
+    <br>
+      <h2>Here is my proposed fix.</h2>
+      <p>By changing the sliding of the year we can turn this selection into a smaller button selection. This would mean the user can easily select the year of expiration.</p>
+    <br>
+    </div>
+    <!-- Group Buttons -->
+    <div class="btn-group" style="width:50%">
+    </div>
+    <br>
+
+    <form>
+      Select expiration date:<br>
+      <input type="button" class="btn btn-primary btn-sm" value="2021" name="no"> 
+      <input type="button" class="btn btn-success btn-sm" value="2022" name="no">
+      <input type="button" class="btn btn-info btn-sm" value="2023" name="no">
+      <input type="button" class="btn btn-warning btn-sm" value="2024" name="no"> 
+      <br>
+      <input type="button" class="btn btn-warning btn-sm" value="2025" name="no"> 
+      <input type="button" class="btn btn-info btn-sm" value="2026" name="no"> 
+      <input type="button" class="btn btn-success btn-sm" value="2027" name="no">
+      <input type="button" class="btn btn-primary btn-sm" value="2028" name="no">   
+      <br>
+      <input type="text" id="result" size="26">
+  </form>
+
+    <h4>This allows the user to see all the years up front without sliding multiple times to find their respected year or accidently picking the wrong year!</h4>
+  </div>
+</div>
+<br>
+<br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src='scripts/script.js'></script>
+
+</body>
+</html>
